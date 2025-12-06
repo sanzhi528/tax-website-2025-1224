@@ -1,0 +1,12 @@
+# GitHub Pages configuration
+theme: jekyll-theme-minimal
+include:
+  - css
+  - js
+  - images
+  - admin
+  - api
+exclude:
+  - README.md
+  - CNAME
+  - .github
