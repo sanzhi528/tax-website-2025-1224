@@ -1,0 +1,55 @@
+# 网站访问问题快速解决方案
+
+## ✅ 确认网站正常
+- 本地测试：http://localhost:8001 ✅ 可以打开
+- 说明网站代码和文件结构完全正常
+
+## ❌ 问题原因
+Chrome浏览器安全策略拦截HTTP网站访问，标记为"不安全"
+
+## 🚀 立即解决方案（按推荐顺序）
+
+### 方案1：使用Firefox浏览器（最推荐）
+1. 下载并安装Firefox浏览器
+2. 直接访问：http://financial-tax-website.oss-cn-shenzhen.aliyuncs.com
+3. Firefox不会拦截HTTP网站
+
+### 方案2：Chrome快速绕过（立即生效）
+1. 在Chrome中访问您的网站
+2. 当出现拦截页面时，快速输入：`thisisunsafe`
+3. 页面会自动刷新显示网站内容
+
+### 方案3：修改Chrome设置
+1. 在Chrome地址栏输入：`chrome://flags/#treat-unsafe-downloads-as-active-content`
+2. 将设置从"Default"改为"Disabled"
+3. 重启Chrome浏览器
+4. 重新访问网站
+
+### 方案4：点击继续访问
+1. 在拦截页面找到小字提示
+2. 点击"访问此不安全站点"链接
+3. 或点击地址栏右侧"不安全"图标，选择"继续访问"
+
+## 📱 其他测试方法
+- 使用手机浏览器访问测试
+- 使用Microsoft Edge浏览器测试
+- 使用Safari浏览器（如果可用）
+
+## 🔧 长期解决方案
+对于正式上线，建议：
+1. 启用HTTPS（通过CDN或SSL证书）
+2. 使用支持HTTPS的专业托管服务
+3. 绑定自定义域名并配置SSL
+
+## 📞 紧急联系方式
+如果以上方法都无法解决：
+- 联系阿里云技术支持检查OSS配置
+- 考虑使用Vercel等自动HTTPS的托管服务
+
+---
+
+## 验证信息
+- 本地服务器：http://localhost:8001 ✅ 正常
+- OSS地址：http://financial-tax-website.oss-cn-shenzhen.aliyuncs.com
+- 问题：Chrome安全拦截HTTP网站
+- 解决方案：使用Firefox或绕过Chrome拦截
