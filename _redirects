@@ -1,0 +1,11 @@
+# 域名重定向配置
+# 确保所有域名都能正确访问网站
+
+# 主域名重定向
+https://0slm.com.cn https://www.0slm.com.cn 301
+https://ninsuna.com https://www.ninsuna.com 301
+http://0slm.com.cn https://www.0slm.com.cn 301
+http://ninsuna.com https://www.ninsuna.com 301
+
+# 确保所有路径都能正确重定向
+/* /index.html 200
